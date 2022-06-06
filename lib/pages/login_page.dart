@@ -61,7 +61,7 @@ bool changeButton =false;
                       setState((){
                         changeButton=true;
                       });
-                      //goto next page with delay
+                      //goto ccnext page with delay
                       await Future.delayed(Duration(seconds: 1));
                       Navigator.pushNamed(context, MyRoutes.homeRoute);
                     },
