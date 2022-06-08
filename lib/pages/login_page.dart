@@ -106,7 +106,6 @@ class _LoginPageState extends State<LoginPage> {
                               duration: Duration(seconds: 1),
                               width: changeButton ? 50 : 150,
                               height: 40,
-
                               alignment: Alignment.center,
                               child: changeButton
                                   ? Icon(
@@ -133,5 +132,6 @@ class _LoginPageState extends State<LoginPage> {
         ),
       ),
     );
+    moveToHome(context);
   }
 }
